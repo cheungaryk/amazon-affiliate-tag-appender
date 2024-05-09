@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "transform": {
+                    "queryTransform": {
+                        "addOrReplaceParams": [
+                            {
+                                "key": "tag",
+                                "value": "themeltingbot-20"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "condition": {
+            "urlFilter": "https://www.amazon.com",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        }
+    }
+]

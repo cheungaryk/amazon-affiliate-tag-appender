@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Amazon Affiliate Tag Appender",
+    "version": "1.0",
+    "description": "Appends an affiliate tag to Amazon links.",
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "tag_rules",
+                "enabled": true,
+                "path": "tag_rules.json"
+            }
+        ]
+    },
+    "permissions": [
+        "webNavigation",
+        "scripting",
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": [
+        "*://www.amazon.com/*"
+    ],
+    "icons": {
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}

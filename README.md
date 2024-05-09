@@ -13,7 +13,7 @@ To install the Amazon Affiliate Tag Appender extension locally, follow these ste
    ```
 
    Alternatively, you may download the code directly by clicking on **<> Code**, and then **Download ZIP** to download the content as a zip file. Unzip the content to a local directory.
-2. Open Chrome and go to [chrome://extensions/](chrome://extensions/).
+2. Open Chrome and go to **chrome://extensions/**.
 3. Enable **Developer mode** using the toggle switch in the top right corner.
 4. Click on **Load unpacked** and select the directory where you cloned or downloaded the repository.
 5. The extension should now be installed and active in Chrome.

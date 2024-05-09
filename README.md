@@ -12,7 +12,7 @@ To install the Amazon Affiliate Tag Appender extension locally, follow these ste
    git clone https://github.com/cheungaryk/amazon-affiliate-tag-appender.git
    ```
 
-   Alternatively, you may download the code directly by clicking on **<> Code**, and then **Download ZIP** to download the content as a zip file. Unzip the content to a local directory.
+   Alternatively, you may download the code directly from the repo page (click [here](https://github.com/cheungaryk/amazon-affiliate-tag-appender) if you are not already there) by clicking on **<> Code**, and then **Download ZIP** to download the content as a zip file. Unzip the content to a local directory.
 2. (Optional) Open [tag_rules.json](tag_rules.json) in a text editor and locate the line containing `"value":`. Change the value after the colon (the current value is my affiliate tag).
 3. Open Chrome and go to **chrome://extensions/**.
 4. Enable **Developer mode** using the toggle switch in the top right corner.

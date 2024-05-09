@@ -17,11 +17,14 @@ To install the Amazon Affiliate Tag Appender extension locally, follow these ste
 3. Open Chrome and go to **chrome://extensions/**.
 4. Enable **Developer mode** using the toggle switch in the top right corner.
 5. Click on **Load unpacked** and select the directory where you cloned or downloaded the repository.
-6. The extension should now be installed and active in Chrome.
+6. If there are no errors, the extension should now be installed and active in Chrome.
 
-## Usage
+## Validation
 
-Once installed, the extension automatically adds the `tag` query parameter to any URL visited on [amazon.com](https://amazon.com). There are no additional steps or settings to configure.
+1. Open [amazon.com](https://amazon.com) in a Chrome browser tab.
+2. Look at the tab's URL. The tag has been appended automatically so it should look like `https://www.amazon.com/?tag=<TAG_NAME>`.
+3. Open any products or account info on Amazon and verify that the tag is still present in the URL.
+4. Manually the tag value in the URL and press the `ENTER` key. Verify that the tag has been changed back to the original tag value.
 
 ## Contributing
 

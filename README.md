@@ -1,6 +1,6 @@
 # Amazon Affiliate Tag Appender
 
-The Amazon Affiliate Tag Appender is a Chrome extension that automatically appends the `tag` parameter to any URL visited on [amazon.com](https://amazon.com). This helps associate your affiliate tag with the products you promote, allowing you to earn commissions on sales made through your affiliate links.
+The Amazon Affiliate Tag Appender is a Chrome extension that automatically appends the `tag` parameter to any URL visited on [amazon.com](https://amazon.com).
 
 ## Installation
 

@@ -9,7 +9,7 @@
             }
         },
         "condition": {
-            "regexFilter": "^https?://(?:www.)?amazon.com/.*/dp/([A-Z0-9]{10})/",
+            "regexFilter": "^https?://(?:www.)?amazon.com/.*/dp/([A-Z0-9]{10})",
             "resourceTypes": ["main_frame"]
         }
     },

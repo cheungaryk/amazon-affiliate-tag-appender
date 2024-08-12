@@ -12,5 +12,19 @@
             "regexFilter": "^https?://(?:www.)?amazon.com/.*/dp/([A-Z0-9]{10})/",
             "resourceTypes": ["main_frame"]
         }
+    },
+    {
+        "id": 2,
+        "priority": 2,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "regexSubstitution": "https://www.amazon.com/dp/\\1/ref=nosim?tag=bobamoney-20"
+            }
+        },
+        "condition": {
+            "regexFilter": "^https?://(?:www.)?amazon.com/gp/product/([A-Z0-9]{10})/",
+            "resourceTypes": ["main_frame"]
+        }
     }
 ]

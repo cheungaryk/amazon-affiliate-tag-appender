@@ -5,23 +5,12 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "transform": {
-                    "queryTransform": {
-                        "addOrReplaceParams": [
-                            {
-                                "key": "tag",
-                                "value": "bobamoney-20"
-                            }
-                        ]
-                    }
-                }
+                "regexSubstitution": "https://www.amazon.com/dp/\\1/ref=nosim?tag=bobamoney-20"
             }
         },
         "condition": {
-            "urlFilter": "https://www.amazon.com",
-            "resourceTypes": [
-                "main_frame"
-            ]
+            "regexFilter": "^https?://(?:www.)?amazon.com/.*/dp/([A-Z0-9]{10})/",
+            "resourceTypes": ["main_frame"]
         }
     }
 ]
